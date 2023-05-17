@@ -1,17 +1,17 @@
-* {
-    font-family: Arial, Helvetica, sans_serif;
-    font-size: 16px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 body {
-    background-color: rgb(204,157,248);
+    background-color: rgb(255, 218, 163);
+}
 
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 main {
-    background-color: white;
-    width: 500px;
+    background-color: rgb(255, 255, 255);
     margin: auto;
-    box-shadow: 3px 3px 5px rgb(15, 15, 15);
-
+    width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
 }
